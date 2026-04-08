@@ -127,11 +127,11 @@ Nhóm 3–5 người, chia zone (~5 team/zone).
 
 ## Hướng dẫn nộp bài
 
-**Deadline:** 23h59 08/04/2026 | **Nộp lên:** LMS | **Nộp link public GitHub repo**
+**Deadline:** 23h59 08/04/2026 | **Nộp lên:** LMS | **Nộp link 2 public GitHub repo (cá nhân + nhóm)**
 
-Mỗi người tạo 1 **public repo** trên GitHub, nộp link repo lên LMS.
+Mỗi người nộp **2 link repo public** lên LMS: 1 repo cá nhân + 1 repo nhóm.
 
-### Đặt tên repo
+### Repo cá nhân
 
 ```
 MaHocVien-HoTen-Day05
@@ -139,31 +139,38 @@ MaHocVien-HoTen-Day05
 
 Ví dụ: `AI20K001-NguyenVanA-Day05`
 
-### Cấu trúc repo
-
 ```
 AI20K001-NguyenVanA-Day05/
 │
-├── canhan/
-│   ├── ux-exercise/
-│   │   ├── sketch.jpg hoặc sketch.pdf       ← Ảnh chụp/scan sketch giấy (as-is + to-be)
-│   │   └── analysis.md                       ← Ghi chú phân tích 4 paths + gap marketing vs thực tế
-│   │
-│   └── extras/                               ← Tùy chọn — nộp thêm để lấy bonus
-│       └── ...                               ← Reflection, ghi chú cá nhân, screenshot AI conversation,
-│                                                research notes, hoặc bất kỳ output cá nhân nào khác
+├── ux-exercise/
+│   ├── sketch.jpg hoặc sketch.pdf       ← Ảnh chụp/scan sketch giấy (as-is + to-be)
+│   └── analysis.md                       ← Ghi chú phân tích 4 paths + gap marketing vs thực tế
 │
-└── NhomXX-Room/                              ← Tên nhóm + phòng. VD: Nhom01-403
-    └── spec-draft.md                         ← SPEC draft (file nhóm, mỗi người nộp giống nhau)
+└── extras/                               ← Tùy chọn — nộp thêm để lấy bonus
+    └── ...                               ← Reflection, ghi chú cá nhân, screenshot AI conversation,
+                                             research notes, hoặc bất kỳ output cá nhân nào khác
+```
+
+### Repo nhóm
+
+```
+NhomXX-Lop-Day05
+```
+
+Ví dụ: `Nhom01-403-Day05`
+
+```
+Nhom01-403-Day05/
+│
+└── spec-draft.md                         ← SPEC draft
 ```
 
 ### Lưu ý
 
-- Repo phải **public** — GV cần truy cập được để chấm
-- **Folder `canhan/`** chứa bài cá nhân — đây là căn cứ chính cho điểm cá nhân UX exercise (10 điểm)
-- **Folder `canhan/extras/`** không bắt buộc — nộp thêm các output cá nhân khác (reflection, research notes, prompt logs, screenshot...) sẽ được xét **bonus điểm** nếu nội dung có chất lượng
-- **Folder `NhomXX-Room/`** chứa bài nhóm — tên folder phải khớp giữa các thành viên cùng nhóm
-- File nhóm giống nhau giữa các thành viên là bình thường
+- Cả 2 repo phải **public** — GV cần truy cập được để chấm
+- **Repo cá nhân** chứa bài UX exercise — đây là căn cứ chính cho điểm cá nhân (10 điểm)
+- **Folder `extras/`** không bắt buộc — nộp thêm các output cá nhân khác (reflection, research notes, prompt logs, screenshot...) sẽ được xét **bonus điểm** nếu nội dung có chất lượng
+- **Repo nhóm** do nhóm cùng quản lý — mọi thành viên đều nộp link repo nhóm này lên LMS
 - Sketch có thể là ảnh chụp giấy, scan, hoặc ảnh chụp whiteboard — miễn đọc được
 - `analysis.md` viết bằng markdown, không cần format đẹp, cần đủ nội dung
 
